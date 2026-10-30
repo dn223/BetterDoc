@@ -1,9 +1,9 @@
 ---
-name: docs-a-medida
+name: betterdoc
 description: Crea documentos (manuales, informes, ensayos, guías, documentación de software) solo con lo que la persona pidió. Primero hace una entrevista breve (estructura, extensión, normas APA u otras, portada, formato) y espera la confirmación; después escribe sin relleno, sin adornos y sin datos inventados, y puede generar el PDF. Usar cuando se pida redactar o generar un documento, manual, informe o reporte, o cuando se mencione esta skill.
 ---
 
-# Documentos a medida
+# BetterDoc
 
 Escribe documentos que contengan **exactamente lo que la persona pidió**: ni secciones extra, ni adornos, ni datos inventados. Primero pregunta y después escribe.
 

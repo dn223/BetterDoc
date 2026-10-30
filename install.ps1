@@ -1,10 +1,10 @@
-# Instala la skill docs-a-medida en Claude Code y/o Codex CLI (Windows).
+# Instala la skill BetterDoc en Claude Code y/o Codex CLI (Windows).
 # Uso:  powershell -ExecutionPolicy Bypass -File install.ps1
 #       powershell -ExecutionPolicy Bypass -File install.ps1 -Destino "C:\otra\carpeta\skills"
 param([string]$Destino = "")
 
 $ErrorActionPreference = "Stop"
-$nombre = "docs-a-medida"
+$nombre = "betterdoc"
 $origen = $PSScriptRoot
 $archivos = @("SKILL.md", "references", "templates", "scripts")
 

@@ -1,4 +1,4 @@
-# docs-a-medida
+# BetterDoc
 
 Una skill para agentes de IA (Claude Code, Codex CLI y otros) que crea documentos **solo con lo que pides**.
 
@@ -14,16 +14,16 @@ Necesitas `git`. Para generar PDF también necesitas Python 3 y Google Chrome o 
 ### Windows
 
 ```powershell
-git clone https://github.com/dn223/docs-a-medida
-cd docs-a-medida
+git clone https://github.com/dn223/BetterDoc
+cd BetterDoc
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
 ### macOS / Linux
 
 ```sh
-git clone https://github.com/dn223/docs-a-medida
-cd docs-a-medida
+git clone https://github.com/dn223/BetterDoc
+cd BetterDoc
 sh install.sh
 ```
 
@@ -31,8 +31,8 @@ El instalador copia la skill a las carpetas que encuentre:
 
 | Agente | Carpeta |
 |---|---|
-| Claude Code | `~/.claude/skills/docs-a-medida` |
-| Codex CLI | `~/.codex/skills/docs-a-medida` |
+| Claude Code | `~/.claude/skills/betterdoc` |
+| Codex CLI | `~/.codex/skills/betterdoc` |
 
 ¿Usas otro agente que lee skills desde otra carpeta? Pásala como argumento: `install.ps1 -Destino <carpeta>` o `sh install.sh <carpeta>`.
 
@@ -40,7 +40,7 @@ El instalador copia la skill a las carpetas que encuentre:
 
 Pégale esto a tu agente:
 
-> Instala la skill de https://github.com/dn223/docs-a-medida siguiendo su README.
+> Instala la skill de https://github.com/dn223/BetterDoc siguiendo su README.
 
 ### Agentes sin soporte de skills
 

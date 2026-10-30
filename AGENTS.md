@@ -1,6 +1,6 @@
 # Instrucciones para agentes
 
-Este repositorio es la skill **docs-a-medida**. Si tu agente no carga skills automáticamente, usa este archivo como instrucción.
+Este repositorio es la skill **BetterDoc**. Si tu agente no carga skills automáticamente, usa este archivo como instrucción.
 
 Cuando la persona pida redactar o generar un documento (manual, informe, ensayo, guía, reporte o documentación de software):
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
-# Instala la skill docs-a-medida en Claude Code y/o Codex CLI (macOS / Linux).
+# Instala la skill BetterDoc en Claude Code y/o Codex CLI (macOS / Linux).
 # Uso:  sh install.sh            o   sh install.sh /otra/carpeta/skills
 set -e
-NOMBRE="docs-a-medida"
+NOMBRE="betterdoc"
 ORIGEN="$(cd "$(dirname "$0")" && pwd)"
 
 if [ -n "$1" ]; then
