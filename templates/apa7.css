@@ -1,0 +1,52 @@
+/* APA 7, trabajo de estudiante: Times New Roman 12, doble espacio, márgenes de 1 in */
+@page {
+  size: Letter;
+  margin: 2.54cm;
+  @top-right { content: counter(page); font: 12pt "Times New Roman", Times, serif; }
+}
+
+* { box-sizing: border-box; }
+html { font-size: 12pt; }
+body { margin: 0; font-family: "Times New Roman", Times, serif; color: #000; line-height: 2; background: #fff; }
+
+/* Portada de estudiante: centrada en la mitad superior */
+.portada { text-align: center; padding-top: 3cm; break-after: page; }
+.portada .titulo { font-weight: 700; }
+.portada .blanco { height: 2em; }
+
+.indice { break-after: page; }
+.indice h2 { text-align: center; }
+.toc ul { list-style: none; padding-left: 0; margin: 0; }
+.toc ul ul { padding-left: 1.27cm; }
+
+/* Niveles de título APA */
+h1, h2, h3, h4, h5 { font-size: 12pt; font-weight: 700; margin: 0; line-height: 2; break-after: avoid; }
+h1 { text-align: center; }
+h2 { text-align: left; }
+h3 { text-align: left; font-style: italic; }
+h4 { text-indent: 1.27cm; }
+h5 { text-indent: 1.27cm; font-style: italic; }
+
+p { margin: 0; text-indent: 1.27cm; text-align: left; }
+ul, ol { margin: 0; padding-left: 1.27cm; }
+a { color: #000; text-decoration: none; }
+
+/* Citas largas (40 palabras o más) */
+blockquote { margin: 0 0 0 1.27cm; padding: 0; }
+blockquote p { text-indent: 0; }
+
+/* Referencias: página nueva y sangría francesa */
+h1#referencias { break-before: page; }
+h1#referencias ~ p, h1#referencias ~ ul li { padding-left: 1.27cm; text-indent: -1.27cm; }
+h1#referencias ~ ul { list-style: none; padding-left: 0; }
+
+table { border-collapse: collapse; margin: 1em 0; line-height: 1.5; }
+th, td { padding: 4px 8px; text-align: left; vertical-align: top; }
+thead th, tr:first-child th { border-top: 1px solid #000; border-bottom: 1px solid #000; }
+tr:last-child td { border-bottom: 1px solid #000; }
+
+figure { margin: 1em 0; break-inside: avoid; }
+figcaption { font-style: italic; }
+img { max-width: 100%; }
+code, pre { font-family: "Courier New", monospace; font-size: 10pt; line-height: 1.4; }
+pre { white-space: pre-wrap; }

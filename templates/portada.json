@@ -1,0 +1,15 @@
+{
+  "institucion": "[Universidad o empresa]",
+  "facultad": "[Facultad o departamento]",
+  "carrera": "[Carrera]",
+  "asignatura": "[Asignatura]",
+  "grupo": "[Grupo]",
+  "docente": "[Docente]",
+  "periodo": "[Ciclo o período]",
+  "titulo": "[Título del documento]",
+  "integrantes": [
+    { "nombre": "[Apellidos, nombres]", "carnet": "[Carné]" }
+  ],
+  "lugar": "[Ciudad, país]",
+  "fecha": "[Fecha]"
+}
